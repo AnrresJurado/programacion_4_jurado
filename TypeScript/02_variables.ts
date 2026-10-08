@@ -25,3 +25,30 @@ let alumno: string = "Pedro perez"
 let caducado: boolean = false
 console.log(alumno)
 console.log(caducado)
+
+let equipo : string [] = ["PIKACHU", "CHARMANDER", "BULBASAUR"]; 
+console.log(equipo);
+
+let pokemonCapturado: string | null = null;
+let pokemonInicial: string | undefined;
+
+let experineciaAcumulada : BigInt = 983838484849n;
+// tipo simbol
+let pokemon1 : symbol = Symbol("Pikachu")
+console.log(pokemon1.description)
+let pokemon2 : symbol = Symbol("Pikachu")
+console.log(pokemon2.toString())
+console.log (pokemon1 === pokemon2)
+
+let pikachu : {
+    nombre: string,
+    nivel: number,
+    vida: number,
+    esLegendario: boolean
+} = {
+    nombre: "Pikachu",
+    nivel: 5, 
+    vida: 35,
+    esLegendario: false
+};
+console.log(pikachu)
