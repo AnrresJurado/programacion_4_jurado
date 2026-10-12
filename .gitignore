@@ -1,0 +1,109 @@
+# ==========================================
+# Archivos del Sistema Operativo (Linux / macOS / Windows)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# ==========================================
+# Entorno y Secretos (Seguridad)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+
+# ==========================================
+# Node.js & React / React Native
+# ==========================================
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/lerna-debug.log*
+
+# Compilación y builds web / Node
+**/dist/
+**/build/
+**/out/
+**/.next/
+**/.nuxt/
+**/.cache/
+**/.expo/
+**/.expo-shared/
+
+# ==========================================
+# Dart & Flutter
+# ==========================================
+**/.dart_tool/
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/build/
+**/flutter_*.png
+**/linked_instances/
+
+# Configuración local de SDK en Flutter
+**/android/local.properties
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+
+# ==========================================
+# Kotlin / Android / Java
+# ==========================================
+**/android/.gradle/
+**/android/app/build/
+**/android/app/captures/
+**/.gradle/
+**/build/
+**/captures/
+
+# Claves de firma y keystores de Android
+*.keystore
+*.jks
+*.pepk
+
+# ==========================================
+# iOS (React Native / Flutter / Swift)
+# ==========================================
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/DerivedData/
+*.xcworkspace
+*.xcodeproj
+
+# ==========================================
+# IDEs y Editores de Código
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+**/out/
+
+# Eclipse
+.metadata
+.classpath
+.project
+.settings/

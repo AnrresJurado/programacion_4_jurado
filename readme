@@ -1,0 +1,46 @@
+# Programación 4
+
+**Autor:** Andres Jurado  
+**Objetivo Principal:** Desarrollo Móvil
+
+---
+
+## 📌 Descripción
+
+Este repositorio contiene los proyectos, actividades y módulos desarrollados durante la asignatura de **Programación 4**, enfocada en el diseño, arquitectura e implementación de aplicaciones móviles modernas, escalables y multiplataforma.
+
+---
+
+## 🚀 Tecnologías y Conceptos Clave
+
+* **React Native / TSX:** Librería y sintaxis basada en TypeScript para la construcción de interfaces de usuario nativas en Android y iOS desde una base de código compartida.
+* **TypeScript:** Superset de JavaScript que añade tipado estático, permitiendo detectar errores en tiempo de compilación y mejorar la mantenibilidad del software.
+* **REST APIs / Node.js & NestJS:** Arquitectura de comunicación cliente-servidor para el consumo de servicios web y gestión de endpoints de backend.
+* **PostgreSQL & TypeORM:** Sistema de gestión de bases de datos relacionales y Mapeador Objeto-Relacional (ORM) para la persistencia de datos estructurados.
+* **MongoDB & Mongoose:** Base de datos NoSQL basada en documentos en formato JSON/BSON, ideal para el manejo de datos no estructurados o esquemas dinámicos.
+* **State Management:** Patrones de manejo de estado global para controlar el flujo de datos entre pantallas y componentes.
+* **Docker:** Plataforma de contenerización utilizada para estandarizar los entornos de desarrollo y despliegue del backend.
+
+---
+
+## 🛠️ Requisitos Previos
+
+* **Node.js:** v18.x o superior
+* **Package Manager:** `npm` o `yarn`
+* **Entorno Móvil:** Xcode (macOS) / Android Studio & Android SDK
+* **Contenedores:** Docker Desktop
+
+---
+
+## 📂 Estructura del Repositorio
+
+```text
+├── docs/             # Documentación y guías del curso
+├── src/              # Código fuente de la aplicación móvil
+│   ├── assets/       # Imágenes, fuentes y recursos estáticos
+│   ├── components/   # Componentes reusables UI (TSX)
+│   ├── navigation/   # Configuración de rutas y navegación
+│   ├── screens/      # Vistas / Pantallas principales
+│   └── services/     # Consumo de API REST / HTTP Client
+├── .gitignore
+└── README.md
