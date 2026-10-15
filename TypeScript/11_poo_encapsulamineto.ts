@@ -7,10 +7,12 @@ class Jedi {
         }
     }
     consultarEnergia(): number {
-    return this.energia
+        return this.energia
     }
 }
 
 const luck = new Jedi();
 luck.rayoDeFuerza(150)
+console.log(luck.consultarEnergia())
+luck.rayoDeFuerza(25)
 console.log(luck.consultarEnergia())
