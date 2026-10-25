@@ -2,6 +2,7 @@
 import { Text, View } from 'react-native'
 import { Paso1 } from './paso1'
 import { Paso2 } from './paso2'
+import {Paso1_mp} from './paso1_hello_world_mp'
 // ┌──────────────────────────────────────────────────────────────────┐
 // │  Cambia este número y guarda (Ctrl+S) para navegar entre pasos. │
 // │  1  Paso 1  Texto y vistas básicas                               │
@@ -15,6 +16,8 @@ export default function Index() {
       return <Paso1 />
     case 2:
       return <Paso2 />
+    case 3:
+      return <Paso1_mp />
     default:
       return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
