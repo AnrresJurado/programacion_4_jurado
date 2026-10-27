@@ -1,6 +1,14 @@
 // app/index.tsx
+import { Paso1 } from '@/components/paso1'
+import { Paso1Personaje } from '@/components/paso1Personaje'
+import { Paso2 } from '@/components/paso2'
+import { Paso3 } from '@/components/paso3'
+import { Paso4 } from '@/components/paso4'
+import { Paso4Volumen } from '@/components/paso4Volumen'
+import { Paso5 } from '@/components/paso5'
+import { Paso5Volumen } from '@/components/paso5Volumen'
 import { StyleSheet, Text, View } from 'react-native'
-import { Paso1 } from './paso1' 
+
 // ┌──────────────────────────────────────────────────────────────────────┐
 // │  Cambia este número y guarda (Ctrl+S) para navegar entre pasos.     │
 // │  1  FlatList básica — servidores con nombre/IP/estado               │
@@ -10,12 +18,26 @@ import { Paso1 } from './paso1'
 // │  5  Formulario con validación — agregar servidor                    │
 // │  6  KeyboardAvoidingView — formulario sin tapado de teclado         │
 // └──────────────────────────────────────────────────────────────────────┘
-const PASO = 1
+const PASO = 8
 
 export default function Index() {
   switch (PASO) {
     case 1:
       return <Paso1 />
+    case 2:
+      return <Paso1Personaje />
+    case 3:
+      return <Paso2 />
+    case 4:
+      return <Paso3 />
+    case 5:
+      return <Paso4 />
+    case 6:
+      return <Paso4Volumen />
+    case 7:
+      return <Paso5 />
+    case 8:
+      return <Paso5Volumen />
     default:
       return (
         <View style={styles.centrado}>
